@@ -2,6 +2,8 @@
 library(tidyverse)
 library(ggplot2)
 
+install.packages("ggthemes")
+
 install.packages("palmerpenguins")
 library(palmerpenguins)
 
