@@ -1,6 +1,8 @@
 # Styling your code will feel a bit tedious to start with, but if you practice it, it will soon become second nature. Additionally, there are some great tools to quickly restyle existing code, like the styler package by Lorenz Walthert. Once you’ve installed it with install.packages("styler"), an easy way to use it is via RStudio’s command palette. The command palette lets you use any built-in RStudio command and many addins provided by packages. Open the palette by pressing Cmd/Ctrl + Shift + P, then type “styler” to see all the shortcuts offered by styler.
 install.packages("styler")
 library(styler)
+#NOTE: DO NOT STYLE THIS DOCUMENT OR ELSE THE EXAMPLES OF WHAT TO AVOID WILL BE EDITED
+
 style_file()
 
 
