@@ -393,12 +393,7 @@ df |>
   filter(n > 1)
 #> # A tibble: 1 × 3
 #>   id    measurement     n
-#>   <chr> <chr>       <int>
-#> 1 A     bp1             2
-
 #It’s then up to you to figure out what’s gone wrong with your data and either repair the underlying damage or use your grouping and summarizing skills to ensure that each combination of row and column values only has a single row.
-
-
 
 
 
