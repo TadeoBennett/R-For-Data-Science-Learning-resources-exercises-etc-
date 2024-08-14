@@ -127,7 +127,7 @@ df |>
 
 
 #4.4 ggplot2 -------------------------------------------------------------------
-The same basic rules that apply to the pipe also apply to ggplot2; just treat + the same way as |>.
+#The same basic rules that apply to the pipe also apply to ggplot2; just treat + the same way as |>.
 
 flights |> 
   group_by(month) |> 
